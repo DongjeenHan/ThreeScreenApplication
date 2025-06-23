@@ -9,7 +9,7 @@ export default function CoursesScreen() {
       </TouchableOpacity>
 
       <View style={styles.card}>
-        <Image source={require('../assets/icon.png')} style={styles.image} />
+        <Image source={require('../assets/banner1.jpg')} style={styles.image} />
         <View style={styles.cardContent}>
           <Text style={styles.courseTitle}>
             Spring 2025 Object-Oriented Programming 3 (CPRG-304-B)
@@ -19,7 +19,7 @@ export default function CoursesScreen() {
       </View>
 
       <View style={styles.card}>
-        <Image source={require('../assets/icon.png')} style={styles.image} />
+        <Image source={require('../assets/banner2.jpg')} style={styles.image} />
         <View style={styles.cardContent}>
           <Text style={styles.courseTitle}>
             Spring 2025 Software Projects: Analysis, Design, and Management (CPSY-301-D)
@@ -29,7 +29,7 @@ export default function CoursesScreen() {
       </View>
 
       <View style={styles.card}>
-        <Image source={require('../assets/icon.png')} style={styles.image} />
+        <Image source={require('../assets/banner2.jpg')} style={styles.image} />
         <View style={styles.cardContent}>
           <Text style={styles.courseTitle}>
             Spring 2025 Mobile Application Development (CPRG-303-C)
@@ -39,7 +39,7 @@ export default function CoursesScreen() {
       </View>
 
       <View style={styles.card}>
-        <Image source={require('../assets/icon.png')} style={styles.image} />
+        <Image source={require('../assets/banner2.jpg')} style={styles.image} />
         <View style={styles.cardContent}>
           <Text style={styles.courseTitle}>
             Spring 2025 Database Programming (CPRG-307-B)
@@ -49,7 +49,7 @@ export default function CoursesScreen() {
       </View>
 
       <View style={styles.card}>
-        <Image source={require('../assets/icon.png')} style={styles.image} />
+        <Image source={require('../assets/banner2.jpg')} style={styles.image} />
         <View style={styles.cardContent}>
           <Text style={styles.courseTitle}>
             Spring 2025 Web Development 2 (CPRG-306-C)
