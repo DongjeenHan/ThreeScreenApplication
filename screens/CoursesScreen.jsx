@@ -22,9 +22,39 @@ export default function CoursesScreen() {
         <Image source={require('../assets/icon.png')} style={styles.image} />
         <View style={styles.cardContent}>
           <Text style={styles.courseTitle}>
-            Spring 2025 Software Projects (CPSY-301-D)
+            Spring 2025 Software Projects: Analysis, Design, and Management (CPSY-301-D)
           </Text>
           <Text style={styles.courseCode}>202440 CPSY-301-D • Spring 2025</Text>
+        </View>
+      </View>
+
+      <View style={styles.card}>
+        <Image source={require('../assets/icon.png')} style={styles.image} />
+        <View style={styles.cardContent}>
+          <Text style={styles.courseTitle}>
+            Spring 2025 Mobile Application Development (CPRG-303-C)
+          </Text>
+          <Text style={styles.courseCode}>202440 CPRG-303-C • Spring 2025</Text>
+        </View>
+      </View>
+
+      <View style={styles.card}>
+        <Image source={require('../assets/icon.png')} style={styles.image} />
+        <View style={styles.cardContent}>
+          <Text style={styles.courseTitle}>
+            Spring 2025 Database Programming (CPRG-307-B)
+          </Text>
+          <Text style={styles.courseCode}>202440 CPRG-307-B • Spring 2025</Text>
+        </View>
+      </View>
+
+      <View style={styles.card}>
+        <Image source={require('../assets/icon.png')} style={styles.image} />
+        <View style={styles.cardContent}>
+          <Text style={styles.courseTitle}>
+            Spring 2025 Web Development 2 (CPRG-306-C)
+          </Text>
+          <Text style={styles.courseCode}>202440 CPRG-306-C • Spring 2025</Text>
         </View>
       </View>
     </ScrollView>
@@ -65,7 +95,7 @@ const styles = StyleSheet.create({
   card: {
     borderRadius: 12,
     backgroundColor: '#f9f9f9',
-    marginBottom: 20,
+    marginBottom: 30,
     overflow: 'hidden',
     elevation: 3,
   },
